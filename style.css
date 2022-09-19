@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --blue: #3882f6;
+}
+
+header img {
+    width: 80px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.placeholder-box {
+    width: 100px;
+    height: 100px;
+    background-color: #f1f1f1;
+    border: 3px solid var(--blue);
+    border-radius: 10px;
+
+}
