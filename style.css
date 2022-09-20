@@ -4,10 +4,10 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 
-    --blue: #3A82F6;
-    --dark-pri: #333533;
-    --gray: #c6ccd7;
-    --light: #f0faf8;
+    --blue: #f87060;
+    --dark-pri: #102542;
+    --gray: #b3a394;
+    --light: #cdd7d6;
 }
 
 body {
@@ -40,7 +40,7 @@ header a {
 
 a svg {
     width: 30px;
-    fill: white;
+    fill: #f87060;
 }
 
 footer {
@@ -59,6 +59,7 @@ button {
     background-color: var(--blue);
     color: var(--light);
     font-size: 16px;
+    box-shadow: 1px 2px 5px 0 var(--dark-pri);
 }
 
 .row {
@@ -83,7 +84,7 @@ button {
     gap: 1rem;
     align-items: center;
     text-align: center;
-    color: var(--dark-pri)
+    color: var(--dark-pri);
 }
 
 .row-hero {
@@ -130,13 +131,15 @@ button {
     background-color: #f1f1f1;
     border: 3px solid var(--blue);
     border-radius: 10px;
+    box-shadow: 1px 2px 5px 0 var(--dark-pri);
 
 }
 
 .signup-box {
     display: flex;
-    background-color: var(--blue);
+    background-color: var(--dark-pri);
     border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px var(--blue);
     flex-direction: column;
     justify-content: center;
     align-items: center;
