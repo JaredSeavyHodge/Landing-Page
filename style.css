@@ -4,9 +4,9 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 
-    --blue: #f87060;
-    --dark-pri: #102542;
-    --gray: #b3a394;
+    --orange: #f87060;
+    --darkblue: #102542;
+    --tan: #b3a394;
     --light: #cdd7d6;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-color: var( --dark-pri );
+    background-color: var( --darkblue );
 }
 
 header div{
@@ -34,7 +34,7 @@ header img {
 
 header a {
     text-decoration: none;
-    color: var( --gray );
+    color: var( --tan );
     padding: 1rem;
 }
 
@@ -47,7 +47,7 @@ footer {
     display: flex;
     justify-content: center;
     padding: 1rem;
-    background-color: var(--dark-pri);
+    background-color: var(--darkblue);
     color: var(--light);
 }
 
@@ -56,10 +56,9 @@ button {
     border: 2px solid;
     border-radius: 8px;
     padding: 8px 32px;
-    background-color: var(--blue);
+    background-color: var(--orange);
     color: var(--light);
     font-size: 16px;
-    box-shadow: 1px 2px 5px 0 var(--dark-pri);
 }
 
 .row {
@@ -84,7 +83,7 @@ button {
     gap: 1rem;
     align-items: center;
     text-align: center;
-    color: var(--dark-pri);
+    color: var(--darkblue);
 }
 
 .row-hero {
@@ -92,8 +91,10 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var( --dark-pri );
+    background-color: var( --darkblue );
     color: var(--light);
+    box-shadow: 1px 2px 2px 0px var(--orange);
+
 }
 
 .row-hero-content {
@@ -102,6 +103,7 @@ button {
     align-items: center;
     gap: 6rem;
     flex-wrap: wrap;
+    
 }
 
 .hero-left {
@@ -118,7 +120,7 @@ button {
 .hero-left p {
     font-size: 18px;
     margin-bottom: 1rem;
-    color: var(--gray);
+    color: var(--tan);
 }
 
 .hero-left button {
@@ -129,17 +131,17 @@ button {
     width: 200px;
     height: 200px;
     background-color: #f1f1f1;
-    border: 3px solid var(--blue);
+    border: 3px solid var(--orange);
     border-radius: 10px;
-    box-shadow: 1px 2px 5px 0 var(--dark-pri);
+    box-shadow: 1px 2px 5px 0 var(--darkblue);
 
 }
 
 .signup-box {
     display: flex;
-    background-color: var(--dark-pri);
+    background-color: var(--darkblue);
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 1px var(--blue);
+    box-shadow: 2px 2px 2px 1px var(--orange);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -153,8 +155,8 @@ button {
     justify-content: center;
     align-items: center;
     padding: 10%;
-    background-color: var(--gray);
-
+    background-color: var(--tan);
+    box-shadow: 1px 1px 5px 0px var(--darkblue);
 }
 
 .row-quote > div {
